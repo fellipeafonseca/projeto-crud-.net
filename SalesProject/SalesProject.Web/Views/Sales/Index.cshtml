@@ -1,0 +1,55 @@
+﻿@model IEnumerable<SalesProject.Model.Sale>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div style="width:90%; margin:0 auto;">
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Salesman)
+                </th>
+                <th>
+                    @Html.DisplayName("Options")
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#table_id').DataTable({
+            "ajax": {
+                "url": "/sales/Loaddata",
+                "type": "GET",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "Product.Name", "autoWidth": true },
+                { "data": "Salesman.Name", "autoWidth": true },
+                {
+                    "data": 'Id', "render": function (Id) {
+                        return '<a href="/Sales/Edit/' + Id + '">Edit</a> | ' + 
+                            '<a href="/Sales/Details/' + Id + '">Details</a> |' +
+                            '<a href = "/Sales/Delete/' + Id + '" > Delete</a>'           
+                    }, "autoWidth": true
+                }
+            ]
+        });
+    });
+</script>
+
+
+

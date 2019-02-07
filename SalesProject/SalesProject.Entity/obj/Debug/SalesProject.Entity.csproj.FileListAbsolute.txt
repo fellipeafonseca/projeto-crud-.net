@@ -1,0 +1,15 @@
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\SalesProject.Entity.dll.config
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\SalesProject.Entity.dll
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\SalesProject.Entity.pdb
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\SalesProject.Model.dll
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\SalesProject.Model.pdb
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\SalesProject.Model.dll.config
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\obj\Debug\SalesProject.Entity.csprojAssemblyReference.cache
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\obj\Debug\SalesProject.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\obj\Debug\SalesProject.Entity.csproj.CopyComplete
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\obj\Debug\SalesProject.Entity.dll
+C:\Users\Fellipe\source\repos\SalesProject\SalesProject.Entity\obj\Debug\SalesProject.Entity.pdb
